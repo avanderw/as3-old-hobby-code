@@ -6,15 +6,6 @@ package avdw.generate.terrain.dimension
 	 */
 	public class MathUtil 
 	{
-		/**
-		 * Determines if a value is a power of 2
-		 * 
-		 * @param	val
-		 * @return
-		 */
-		public static function isPowerOfTwo(val:uint):Boolean {
-			return (val != 0) && ((val & (val - 1)) == 0);
-		}
 		
 		/**
 		 * Returns a number that will contain the value
